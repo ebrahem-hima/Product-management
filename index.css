@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial;
+    height: 1000px;
+    background-color: rgb(43, 48, 53);
+}
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.site .h1 {
+    color: white;
+    position: relative;
+    left: 50%;
+}
+.site p {
+    color: white;
+    text-align: center;
+    line-height: 2;
+    font-weight: normal;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+label {
+    color: #d4d4d4;
+    display: block;
+    margin-bottom: 15px;
+}
+
+input,
+.foot select {
+    background: rgb(33, 37, 41);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    width: 100%;
+    margin-bottom: 30px;
+}
+input:focus {
+    outline: 2px solid rgb(34, 106, 214);
+}
+h2 {
+    color: white;
+}
+.body input {
+    width: 100%;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+.foot select {
+    width: 180px;
+}
+hr {
+    width: 635px;
+}
+.container button {
+    width: 635px;
+    background-color: rgb(18, 105, 235);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+button:hover {
+    background-color: rgb(11, 94, 215);
+}
+.cart {
+    width: 300px;
+    text-align: right;
+    color: white;
+    border: 1px solid #777;
+    border-radius: 10px;
+    text-align: center;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    background-color: rgb(33, 37, 41);
+    margin-top: 60px;
+}
+.cart .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.cart .all p {
+    margin: 0;
+}
+.cart .all span {
+    margin-right: 10px;
+}
+.cart .font {
+    font-size: 15px;
+    color: #777;
+    border-bottom: 1px solid #777;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+.cart .active,
+.cart .active p,
+.active .font {
+    background-color: rgb(43, 48, 53);
+    color: green;
+}
+.cart button {
+    width: 200px;
+    background-color: rgb(92, 99, 106);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.cart button:hover {
+    background-color: rgb(113, 119, 126);
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+/* .redem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} */
+.redem input {
+    width: 250px;
+}
